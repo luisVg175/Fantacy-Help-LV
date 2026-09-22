@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+  font-size: 15px;
+  min-height: 100dvh;
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: azure;
+  font-size: 18px;
+  box-shadow: 5px 5px 15px rgba(163, 163, 163, 0.568);
+  border-bottom: 2px solid rgb(224, 224, 224);
+}
+
+.colapso-mundial-nav {
+  padding: 8px 16px;
+}
+
+.Icon-Logo-a {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.list-a-Colapse-navBAR {
+  font-weight: bold;
+  color: #333 !important;
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding: 8px 12px !important;
+  transition: all 0.3s ease;
+}
+
+.list-a-Colapse-navBAR:hover {
+  border-bottom-color: #007bff;
+  color: #007bff !important;
+}
+
+footer {
+  background-color: azure;
+  font-size: 18px;
+  box-shadow: 5px 5px 15px rgba(163, 163, 163, 0.568);
+  border-top: 2px solid rgb(224, 224, 224);
+
+}
+
+@media (min-width: 992px) {
+  .list-a-Colapse-navBAR {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
