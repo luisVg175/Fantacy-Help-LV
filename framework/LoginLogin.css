@@ -1,0 +1,107 @@
+/**
+body{
+  background-color: aqua;
+}
+.LoginLogin-div-background-difuminado {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+  padding: 30px;
+  background-color: aliceblue;
+  font-size: 30px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginLogin-div-ayudaMadre{
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.loginLogin-div-ayuda{
+  font-size: 15px;
+
+  
+}
+
+.loginLogin-div-crearCuenta{
+  font-size: 15px;
+}
+**/
+body {
+  background-color: aqua;
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  /* Centra la tarjeta perfectamente sin usar absolute */
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.LoginLogin-div-background-difuminado {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  width: 90%;
+  /* Se adapta en pantallas pequeñas */
+  max-width: 400px;
+  /* Límite de ancho en pantallas grandes */
+  padding: 24px;
+  background-color: aliceblue;
+  font-size: 1.5rem;
+  /* Usar rem evita problemas de escalado */
+  box-sizing: border-box;
+  /* Previene desbordamientos por el padding */
+
+}
+
+.loginLogin-input-button-codigo{
+  width: 60%;
+  max-height: 80px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.loginLogin-div-ayudaMadre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  /* Si la pantalla es muy estrecha, los elementos pasan abajo en lugar de romper el diseño */
+}
+
+.loginLogin-div-ayuda,
+.loginLogin-div-crearCuenta {
+  font-size: 0.875rem;
+}
+
+.LoginLogin-div-titulo {
+  font-size: 1.5rem;
+}
+
+
+
+/* Ajuste adicional para pantallas pequeñas */
+@media (max-width: 480px) {
+  .LoginLogin-div-background-difuminado {
+    padding: 16px;
+  }
+
+  .loginLogin-div-ayudaMadre {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .LoginLogin-div-titulo {
+    font-size: 1.3rem;
+  }
+}
