@@ -1,10 +1,10 @@
 <?php
-require_once "../../BackEnd/menu-Inicio/funcionUni.php";
+require_once "../../BackEnd/funciones/funcionUni.php";
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <?php
 headUniversal();
 ?>
@@ -58,31 +58,12 @@ headUniversal();
 
         <div class="loginLogin-div-ayudaMadre">
             <div class="loginLogin-div-ayuda">
-                <a type="submit" href="/index.php" class="link-opacity-25, link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ">¿quieres regresar?
-                </a>
-
-            </div>
-            <!--
-            <div >
-                <a href="/page/Cuenta-Crear-Olbidar/contraOlvi.php" class="link-opacity-25, link-secondary link-offset-2 link-underline-opacity-25
-                link-underline-opacity-100-hover, ">¿Te olvidaste la contraseña?
+                <a href="/index.php" class="link-secondary link-opacity-75 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+                    ¿Quieres regresar?
                 </a>
             </div>
-            <div class="loginLogin-div-crearCuenta">
-                <a type="submit" href="/page/Cuenta-Crear-Olbidar/crearCuenta.php" class="link-opacity-25, link-secondary link-offset-2 link-underline-opacity-25
-                link-underline-opacity-100-hover, ">¿No tienes cuenta?
-                </a>
-            </div>
-        -->
         </div>
-
-
-        </div>
+    </div>
 </body>
 
 </html>
-
-<?php
-//echo "{$_POST["correo"]}.<br>";
-//echo "{$_POST["contra"]}.<br>";
-?>

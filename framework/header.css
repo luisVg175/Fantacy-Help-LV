@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-main {
+    background-color:rgb(184, 75, 75);
+    box-sizing: border-box;
+}
+
+
+.header-imgIcon {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.header-btm-dropdown{
+    border: 50px;
+    justify-items: center;
+}
+
+.header-btm-navbar{
+    padding-left: 10px;
+}

@@ -1,10 +1,10 @@
 <?php
-require_once "../../BackEnd/menu-Inicio/funcionUni.php";
+require_once "../../BackEnd/funciones/funcionUni.php";
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <?php
 headUniversal();
 ?>
@@ -57,9 +57,9 @@ headUniversal();
 
         <div class="loginLogin-div-ayudaMadre">
             <div class="loginLogin-div-ayuda">
-                <a type="submit" href="/index.php" class="link-opacity-25, link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ">¿quieres regresar?
+                <a href="/index.php" class="link-secondary link-opacity-75 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+                    ¿Quieres regresar?
                 </a>
-
             </div>
         </div>
     </div>
