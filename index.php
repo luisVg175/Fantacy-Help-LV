@@ -1,15 +1,13 @@
+<?php
+require_once "BackEnd/menu-Inicio/funcionUni.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fantacy Help LV. indice</title>
-    <link rel="Icon" href="/img/img0.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/framework/LoginLogin.css">
-    <link rel="stylesheet" href="/framework/mainStyle.css">
-</head>
+<?php 
+headUniversal();
+?>
 
 <body>
     <div class="LoginLogin-div-background-difuminado">
@@ -30,17 +28,21 @@
                         <label>Contraseña</label>
                     </li>
                     <li>
-                        <input type="password" id="contra" name="contra" placeholder="escribe tu contraseña" class="">
+                        <input type="password" id="contra" name="contra" placeholder="escribe tu contraseña">
                     </li>
                 </ul>
 
                 <hr class="my-3" style="border-top: 2px solid #6c757d;">
-                
+
                 <ul class="navbar-nav align-items-lg-center">
                     <li>
-                        <input type="submit" value="iniciar sesión">
+                        <button type"submit" class="loginlogin-bt-style">
+                            <a href="/page/PagInicio/menuInicio/menu.php" class="link-opacity-25, link-secondary link-offset-2 link-underline-opacity-25
+                link-underline-opacity-100-hover">iniciar sesión</a>
+                        </button>
                     </li>
                 </ul>
+
             </div>
         </form>
         <hr class="my-3" style="border-top: 2px solid #6c757d;">
@@ -56,15 +58,8 @@
                 link-underline-opacity-100-hover, ">¿No tienes cuenta?
                 </a>
             </div>
-
-
         </div>
     </div>
 </body>
 
-</html>
-
-<?php
-//echo "{$_POST["correo"]}.<br>";
-//echo "{$_POST["contra"]}.<br>";
-?>
+</html> 
